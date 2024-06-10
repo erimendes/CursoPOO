@@ -5,5 +5,15 @@ public class Cachorro{
 	public int altura;
 	public double peso;
 	public int tamanhoDoRabo;
+	public String estadoDeEspirito;
+
+     public String interagir(String acao){
+        switch (acao) {
+            case "carinho": this.estadoDeEspirito = "feliz";
+            case "vai dormir": this.estadoDeEspirito = "bravo";
+            case "pisar na patinha": this.estadoDeEspirito = "triste";
+            default: this.estadoDeEspirito = "neutro";
+        }
+    }
  
 }
