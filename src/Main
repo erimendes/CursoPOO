@@ -10,6 +10,6 @@ class Main {
         cachorro.peso = 5.5;
         cachorro.tamanhoDoRabo = 5;
 
-        System.out.println(cachorro);
+        System.out.println(cachorro.interagir("carinho"));
     }
 }
